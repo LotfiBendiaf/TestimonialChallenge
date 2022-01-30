@@ -1,0 +1,89 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@300;500;700&display=swap";
+:root {
+  /* Main colors */
+  --mainColor: #C84B31;
+  --secondaryColor: #2D4263;
+  --thirdColor: #adc8ff;
+  --alternativeColor: #EEF2FF;
+
+  /* Text colors */
+  --mainTextColor: #40414d;
+  --secondaryTextColor: #6b6d83;
+
+  /* Light color */
+  --lightColor: #f4f5f8;
+  /* Dark color */
+  --darkColor: #082032;
+
+  /* Status colors */
+  --successStatus: #70cc98;
+  --dangerStatus: #ffa6a6;
+  --warningStatus: #fff0c2;
+  --successFont: #3e7958;
+  --dangerFont: #ac4242;
+  --warningFont: #8a7f1c;
+
+  /* Overlay background color */
+  --overlayColor: rgba(0, 0, 0, 0.2);
+
+  /* Table row deleted */
+  --tableRowDeleted: #ff9191;
+
+  /* Overlay background color */
+  --modalBarColor: #a2b8ffb7;
+
+  /* Main font */
+  --defaultFont: "Roboto", sans-serif;
+  --secondaryFont: "Montserrat", sans-serif;
+
+  /* Title font */
+  --TitleFont: "Lato", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--secondaryFont);
+  background-color: var(--mainColor);
+  -webkit-animation: fadein 2s;
+  animation: fadein 2s;
+  overflow-x: hidden;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 22px;
+}
+h1,
+h2 {
+  font-family: var(--TitleFont);
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: var(--mainTextColor);
+  white-space: nowrap;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--TitleFont);
+  font-weight: 600;
+  color: var(--secondaryTextColor);
+  margin: 20px auto;
+}
+/*# sourceMappingURL=index.1303bb05.css.map */
