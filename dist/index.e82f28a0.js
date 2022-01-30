@@ -521,6 +521,6 @@ function hmrAcceptRun(bundle, id) {
 },{}],"dV6cC":[function(require,module,exports) {
 var _styleCss = require("./../css/style.css");
 
-},{"./../css/style.css":"6ZQyu"}],"6ZQyu":[function() {},{}]},["1B2dF","dV6cC"], "dV6cC", "parcelRequire0efa")
+},{"./../css/style.css":"6ZQyu"}],"6ZQyu":[function() {},{}]},["1B2dF","dV6cC"], "dV6cC", "parcelRequire5680")
 
 //# sourceMappingURL=index.e82f28a0.js.map

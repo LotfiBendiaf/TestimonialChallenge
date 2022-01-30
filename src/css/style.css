@@ -35,10 +35,14 @@ body{
     color: var(--whiteColor);
 }
 
+h3{
+    font-size: 18px;
+}
+
 .testimonial-grid{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 10%;
+    margin: 12%;
     gap: 30px;
 
 }
@@ -87,7 +91,7 @@ body{
 #article-1{
     background-image: url('../img/bg-pattern-quotation.svg');
     background-repeat: no-repeat;
-    background-position: top right 17%;
+    background-position: top right 20%;
     background-color: var(--violetColor);
 }
 #article-1 p{
@@ -102,9 +106,13 @@ body{
 #article-3{
     color: var(--darkGrey);
 }
+#article-3 h3{
+    color: hsla(217, 30%, 14%, 0.8);
+}
 #article-3 p{
     color: var(--greyColor);
 }
+
 #article-4{
     background-color: var(--darkGrey);
     color: var(--darkColor);
@@ -117,6 +125,9 @@ body{
     grid-row-start: 1;
     grid-column-start: 4;
     grid-row-end: 3;
+}
+#article-5 h3{
+    color: hsla(217, 30%, 14%, 0.8);
 }
 #article-5 p{
     color: var(--lightGreyColor);
